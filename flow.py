@@ -8,6 +8,7 @@ import os
 from dotenv import load_dotenv
 load_dotenv()
 
+# create a .env file based on the .env_template file.  use your cometML key here to track experiments
 API_KEY=os.getenv('api_key')
 PROJECT_NAME=os.getenv('project_name')
 WORKSPACE=os.getenv('workspace')
